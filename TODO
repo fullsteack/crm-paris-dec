@@ -4,3 +4,6 @@ Todo:
 ☐ Create ClientsModule
 ☐ Create SharedModule
 ☐ Create UiModule
+☐ LoginRoutingModule pour la route login
+☐ ClientsRoutingModule pour la route clients (ex PrestationsRouting)
+☐ PageNotfoundRouting pour la route ** ( ex PrestationsRouting)
