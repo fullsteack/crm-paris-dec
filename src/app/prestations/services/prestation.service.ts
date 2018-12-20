@@ -26,10 +26,12 @@ export class PrestationService {
   public update(item: Prestation, state: State) {
     item.state = state;
     console.log(item.state);
-
   }
 
   // add item in Collection
+  public add(item: Prestation) {
+    this.collection.push(new Prestation(item));
+  }
   // update item in collection
 
 }

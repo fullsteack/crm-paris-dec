@@ -7,13 +7,15 @@ import { ItemPrestationComponent } from './components/item-prestation/item-prest
 import { SharedModule } from '../shared/shared.module';
 import { PageAddPrestationComponent } from './pages/page-add-prestation/page-add-prestation.component';
 import { AddPrestationComponent } from './containers/add-prestation/add-prestation.component';
+import { FormPrestationsComponent } from './components/form-prestations/form-prestations.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [PagePrestationsComponent, ListPrestationsComponent, ItemPrestationComponent, PageAddPrestationComponent, AddPrestationComponent],
+  declarations: [PagePrestationsComponent, ListPrestationsComponent, ItemPrestationComponent, PageAddPrestationComponent, AddPrestationComponent, FormPrestationsComponent],
   imports: [
     CommonModule,
     PrestationsRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class PrestationsModule { }
